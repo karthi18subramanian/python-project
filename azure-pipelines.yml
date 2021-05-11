@@ -30,7 +30,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'python setup.py sdist'
+    script: 'python startup.py sdist'
 
 - task: PublishBuildArtifacts@1
   inputs:
